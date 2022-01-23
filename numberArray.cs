@@ -15,6 +15,15 @@ namespace numberArray
 
             // printing an element at particular index
             Console.WriteLine("The number is " + elements[0]);
+            Console.WriteLine("The number is " + elements[1]);
+            Console.WriteLine("The number is " + elements[2]);
+            Console.WriteLine("The number is " + elements[3]);
+            Console.WriteLine("The number is " + elements[4]);
+            Console.WriteLine("The number is " + elements[5]);
+
+            // updating a number
+            elements[0] = 22;
+            Console.WriteLine("The number is at index 0 now is " + elements[0]);
         }
     }
 }
